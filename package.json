@@ -1,0 +1,28 @@
+{
+  "name": "common-cli-chanphy",
+  "version": "1.0.0",
+  "description": "common cli test",
+  "bin": "./bin/cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChanphyChin/cli.git"
+  },
+  "author": "Chanphy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChanphyChin/cli/issues"
+  },
+  "homepage": "https://github.com/ChanphyChin/cli#readme",
+  "engines": {
+    "node": ">=14"
+  },
+  "devDependencies": {
+    "chalk": "^5.0.1",
+    "commander": "^9.2.0",
+    "inquirer": "^8.2.2",
+    "spinnies": "^0.5.1"
+  }
+}
