@@ -1,6 +1,6 @@
 const fs = require('fs/promises');
 const path = require('path');
-const { copyDir } = require('./copyDir');
+const { copyDir } = require('./operator');
 
 async function selectTemplate(templateName, targetPath) {
   const templateDir = path.join(__dirname, '../', 'templates', templateName);

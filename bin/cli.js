@@ -1,7 +1,7 @@
 #! /usr/bin/env node
 const { program } = require('commander');
 const path = require('path');
-const {removeDir} = require('./removeDir');
+const {removeDir} = require('./operator');
 const create = require('./create');
 const { existsSync } = require('fs');
 
