@@ -21,7 +21,7 @@ program
       if(await existsSync(targetPath)) {
         const { Chalk } = await import('chalk');
         const chalk = new Chalk();
-        console.log(chalk.red('目录已经存在,如需覆盖请使用 common-cli-chanphy -f create <projectName> 指令'))
+        console.log(chalk.red('目录已经存在,如需覆盖请使用 common-cli-frontend -f create <projectName> 指令'))
         return
       }
       create(projectName);
