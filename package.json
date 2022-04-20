@@ -19,9 +19,10 @@
   "engines": {
     "node": ">=14"
   },
-  "devDependencies": {
+  "dependencies": {
     "chalk": "^5.0.1",
     "commander": "^9.2.0",
+    "cross-spawn": "^7.0.3",
     "inquirer": "^8.2.2",
     "spinnies": "^0.5.1"
   }

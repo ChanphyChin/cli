@@ -16,7 +16,8 @@ async function copyDir(dirPath, targetPath) {
         }
         await fs.mkdir(targetPath)
       }
-      dirs.map(dir => copyDir(path.join(dirPath, dir), path.join(targetPath, dir)))
+      dirs = dirs.map(async(dir) => await copyDir(path.join(dirPath, dir), path.join(targetPath, dir)))
+      return Promise.all(dirs);
     }
   }catch(e) {
     console.error(e)
