@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/ChanphyChin/cli/issues"
   },
-  "homepage": "https://github.com/ChanphyChin/cli#readme",
+  "homepage": "https://github.com/ChanphyChin/cli/wiki",
   "engines": {
     "node": ">=14"
   },
