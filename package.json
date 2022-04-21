@@ -1,21 +1,21 @@
 {
   "name": "common-frontend-builder",
-  "version": "1.0.1",
-  "description": "common cli test",
+  "version": "1.0.2",
+  "description": "common frontend builder",
   "bin": "./bin/cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ChanphyChin/cli.git"
+    "url": "git+https://github.com/ChanphyChin/common-frontend-builder.git"
   },
   "author": "Chanphy",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ChanphyChin/cli/issues"
+    "url": "https://github.com/ChanphyChin/common-frontend-builder/issues"
   },
-  "homepage": "https://github.com/ChanphyChin/cli/wiki",
+  "homepage": "https://github.com/ChanphyChin/common-frontend-builder/wiki",
   "engines": {
     "node": ">=14"
   },
