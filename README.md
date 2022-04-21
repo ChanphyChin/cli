@@ -14,4 +14,7 @@ $  yarn add common-frontend-builder -g # or npm install common-frontend-builder 
 $  common-frontend-builder create [option] <projectName>
 ```
 
+## Home page
+[https://github.com/ChanphyChin/common-frontend-builder/wiki](https://github.com/ChanphyChin/common-frontend-builder/wiki)
+
 
