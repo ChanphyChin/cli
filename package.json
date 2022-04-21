@@ -24,7 +24,6 @@
     "commander": "^9.2.0",
     "cross-spawn": "^7.0.3",
     "inquirer": "^8.2.2",
-    "shelljs": "^0.8.5",
     "spinnies": "^0.5.1"
   }
 }
