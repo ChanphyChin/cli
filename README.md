@@ -7,7 +7,7 @@
 
 快速构建主流框架项目
 
-![图片](https://raw.githubusercontent.com/ChanphyChin/static/master/Snipaste_2022-04-20_16-36-42.png)  
+![图片](https://raw.githubusercontent.com/ChanphyChin/static/master/template.png)  
 
 ## Frontend framework list
 
