@@ -18,13 +18,17 @@ async function create(projectName) {
           value: 'react'
         },
         {
-          name: 'cli-template',
-          value: 'cli-template'
-        }
+          name: 'angular',
+          value: 'angular'
+        },
+        // {
+        //   name: 'static-templates',
+        //   value: 'static-templates'
+        // }
       ]
     }
   ]);
-  if(templateName === 'cli-template') {
+  if(templateName === 'static-templates') {
     createTemplateFromCli(projectName)
   }else {
     createTemplateFromShell(templateName, projectName)
